@@ -1,0 +1,27 @@
+# Go
+go.sum
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.test
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+/vendor/
+/Godeps/
+
+# Go workspace file
+go.work
+
+# IntelliJ
+out/
+.idea/**
+
+# VScode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Mac related
+.DS_Store
